@@ -1,3 +1,16 @@
 body {
   background-color: rgb(9, 255, 0);
+}
+
+.tabela:hover {
+  background-color: azure;
+}
+.tabela:hover .coluna-1 {
+  background-color: black;
+}
+.tabela:hover .coluna-2 {
+  background-color: black;
+}
+.tabela:hover .coluna-3 {
+  background-color: black;
 }/*# sourceMappingURL=principal.css.map */

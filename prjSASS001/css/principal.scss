@@ -1,3 +1,14 @@
 body{
     background-color: rgb(9, 255, 0);
 }
+
+.tabela:hover{
+    background-color: azure;
+    @for $x from 1 to 4 {
+        .coluna-#{$x}{
+            background-color: black;
+        }
+    }
+}
+
+
